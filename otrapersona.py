@@ -4,10 +4,10 @@ class Persona:
     cedula          = int
     centroEstudios  = str
     
-    def _init_(self, nombre, edad, centroEstudios):
+    def _init_(self, nombre, edad, cedula, centroEstudios):
         self.nombre =   nombre
         self.edad   =   edad
-        self.cedula =   cedula
+        self.cedula =  cedula
         self.centroEstudios =   centroEstudios
     
     def conversar (self, otra_persona):

@@ -1,3 +1,6 @@
+from main import persona
+
+
 class Persona2:
     nombre = str
     edad = int
@@ -14,7 +17,7 @@ class Persona2:
     def saluda(self, otra_persona):
         return f'Hola mi nombre es '
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     David = persona("David",33)
     Erika = persona("Erika",35)
 
