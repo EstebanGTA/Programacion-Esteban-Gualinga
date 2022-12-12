@@ -50,7 +50,7 @@ class Persona3:
     def Xd(self):
         print("Hola "+ self.nombre +" Bienvenido a la carrera "+ self.carrera)
         
-#persona33    =   Persona3("Santiago","Venegas",26,"Software","Segundo")
+#persona33    =   Persona3("Esteban","Gualinga",18,"Software","Segundo")
 #persona33.Xd()
 
 class   Personax:
