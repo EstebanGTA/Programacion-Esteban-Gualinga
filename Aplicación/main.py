@@ -30,7 +30,7 @@ class Persona2:
     def __str__(self):
         return f'Hola me llamo {self.nombre} {self.apellido}, tengo {self.edad} y estudio {self.carrera}'
 
-persona2    =   Persona2("Santiago","Venegas",26,"Software")
+persona2    =   Persona2("Esteban","Gualinga",18,"Software")
 print(persona2)
 
 class Persona3:
