@@ -68,10 +68,7 @@ class   Personax:
 
 prs1    =   Personax("Jose", "Tuqueres", 26)
 prs2    =   Personax("Kevin", "Salazar", 18)
-prs4    =   Personax("Juan", "Paz", 18)
-prs5    =   Personax("Lorena", "Obando", 36)
 
-print(prs1.saludar(prs5))
-print(prs4.saludar(prs2))
-print(prs5.saludar(prs1))
-print(prs2.saludar(prs4))
+
+print(prs1.saludar(prs2))
+print(prs2.saludar(prs1))
