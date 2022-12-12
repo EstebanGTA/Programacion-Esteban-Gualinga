@@ -40,7 +40,7 @@ class Persona3:
     carrera     =   str
     semestre    =   str
     
-    def __init__(self, nombre, apellido, edad, carrera):
+    def __init__(self, nombre, apellido, edad, carrera, semestre):
         self.nombre     =   nombre
         self.apellido   =   apellido
         self.edad       =   edad
